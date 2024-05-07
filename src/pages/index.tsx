@@ -35,9 +35,9 @@ const Index = ({ stats, topRepos }: AppProps) => {
             transition={{ ease: "easeOut", duration: 0.15 }}
             className="mt-24 w-full mb-32"
         >
-            <h1 className="mt-36 font-bold text-4xl md:text-5xl mb-4">Hey, I'm Conrad 👋</h1>
+            <h1 className="mt-36 font-bold text-4xl md:text-5xl mb-4">Hey, I'm Ens 👋</h1>
             <p className="text-gray-800 dark:text-gray-300 leading-6 tracking-wide mb-12">
-                I'm a self-taught software engineer from the United States. I'm currently pursuing full-stack web
+                I'm a self-taught software engineer from the Turkey. I'm currently pursuing full-stack web
                 development to create stunning user experiences on the front-end, and scalable and secure infrastructure
                 on the backend.
             </p>
@@ -110,8 +110,8 @@ const Index = ({ stats, topRepos }: AppProps) => {
 };
 
 export async function getStaticProps() {
-    const stats = await fetch(`https://api.github-star-counter.workers.dev/user/cnrad`).then(res => res.json());
-    const repos = await fetch(`https://api.github.com/users/cnrad/repos?type=owner&per_page=100`).then(res =>
+    const stats = await fetch(`https://api.github-star-counter.workers.dev/user/eneswastaken`).then(res => res.json());
+    const repos = await fetch(`https://api.github.com/users/eneswastaken/repos?type=owner&per_page=100`).then(res =>
         res.json()
     );
 
