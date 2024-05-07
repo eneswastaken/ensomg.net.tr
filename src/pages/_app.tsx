@@ -36,10 +36,10 @@ function MyApp({ Component, pageProps, router }: AppProps) {
                 <meta name="theme-color" content="#000000" />
                 <meta
                     name="keywords"
-                    content="cnrad, Conrad Crawford, Conrad, Crawford, web developer, github, typescript"
+                    content="Enes, Ens"
                 />
-                <meta name="description" content="Conrad Crawford - Software Engineer" />
-                <meta name="author" content="Conrad Crawford" />
+                <meta name="description" content="Enes - Backend Developer" />
+                <meta name="author" content="Enes" />
                 <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
             </Head>
 
