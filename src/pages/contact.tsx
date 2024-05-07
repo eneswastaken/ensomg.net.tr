@@ -30,21 +30,21 @@ const Talk = () => {
                     <ContactLink
                         name="@cnrad"
                         icon={<SiDiscord className="w-6 h-6 text-[#5865F2]" />}
-                        link="https://discord.com/users/705665813994012695"
+                        link="https://discord.com/users/852629327891660881"
                         borderColor="hover:border-[#5865F2]/50"
                     />
 
                     <ContactLink
                         name="@notcnrad"
                         icon={<SiTwitter className="w-6 h-6 text-[#1DA1F2]" />}
-                        link="https://twitter.com/notcnrad"
+                        link="https://twitter.com/ensomgg"
                         borderColor="hover:border-[#1DA1F2]/50"
                     />
 
                     <ContactLink
                         name="hello@cnrad.dev"
                         icon={<FiMail className="w-6 h-6 text-gray-400" />}
-                        link="mailto:hello@cnrad.dev"
+                        link="mailto:info@ensomg.net.tr"
                         borderColor="hover:border-gray-400/50"
                     />
                 </div>
