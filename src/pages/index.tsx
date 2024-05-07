@@ -80,7 +80,7 @@ const Index = ({ stats, topRepos }: AppProps) => {
             <p className="text-gray-800 dark:text-gray-300 leading-6 font-light tracking-wide mb-6">
                 In my free time, I enjoy creating open source projects on{" "}
                 <a
-                    href="https://github.com/eneswastaken"
+                    href="https://github.com/ensomgg"
                     rel="noreferrer"
                     className="font-semibold text-violet-500 hover:underline"
                 >
@@ -110,8 +110,8 @@ const Index = ({ stats, topRepos }: AppProps) => {
 };
 
 export async function getStaticProps() {
-    const stats = await fetch(`https://api.github-star-counter.workers.dev/user/eneswastaken`).then(res => res.json());
-    const repos = await fetch(`https://api.github.com/users/eneswastaken/repos?type=owner&per_page=100`).then(res =>
+    const stats = await fetch(`https://api.github-star-counter.workers.dev/user/ensomgg`).then(res => res.json());
+    const repos = await fetch(`https://api.github.com/users/ensomgg/repos?type=owner&per_page=100`).then(res =>
         res.json()
     );
 
