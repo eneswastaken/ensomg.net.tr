@@ -5,7 +5,7 @@ module.exports = {
     return [
       {
         source: '/github',
-        destination: 'https://github.com/cnrad',
+        destination: 'https://github.com/eneswastaken',
         permanent: true,
       },
       {
